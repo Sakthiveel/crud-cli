@@ -1,4 +1,4 @@
-# Customer Management CLI
+
 
 Custom CLI Tool for CRUD Operations. Uses Mongoose, Commander.js and Inquirer.js.
 
