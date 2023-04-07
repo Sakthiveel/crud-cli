@@ -1,37 +1,61 @@
-Custom CLI Tool For CRUD Operations:
+# Customer Management CLI
 
+Custom CLI Tool for CRUD Operations. Uses Mongoose, Commander.js and Inquirer.js.
 
-Installation:
+### Version
+1.0.0
+
+## Usage
+
+### Installation
 
 Install the dependencies
+
+```sh
 $ npm install
+```
 
-Create Symlink
+### Create Symlink
+
+```sh
 $ npm link
+```
 
+### Commands
 
-Commands
-List users (list or l)
+List Users (list or l)
+```sh
 $ crud-cli list
+```
 
-Find Customers (find or f)
+Find Users (find or f)
+```sh
 $ crud-cli find [NAME]
+```
 
-
-Add Customer (add or a)
+Add User (add or a)
+```sh
 $ crud-cli add
+```
 
-Update Customer (update or u)
+Update User (update or u)
+```sh
 $ crud-cli update [_ID]
+```
 
-Remove Customer (remove or r)
+Remove User (remove or r)
+```sh
 $ crud-cli remove [_ID]
+```
 
-App Info
+## App Info
 
-Author
+### Author
+
 Sakthivel
 
-Version
+### Version
+
 1.0.0
+
 
